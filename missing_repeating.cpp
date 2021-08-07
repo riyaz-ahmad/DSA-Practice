@@ -7,7 +7,7 @@ One number from set {1, 2, …n} is missing and one number occurs twice in the a
 #include<bits/stdc++.h>
 using namespace std;
 
-/* Approach 1: Using Count Array
+/* Approach 1: Using Count Array*/
 void mis_rep(vector<int>&a, int n){
     int an1, an2;
     vector<int> temp(n);
@@ -24,12 +24,6 @@ void mis_rep(vector<int>&a, int n){
     }
     cout<<"Repeating "<<an1<<" Missing "<<an2;
 }
-*/
-/* Approach 2*/
-void mis_rep(vector<int>&a, int n){
-
-}
-
 
 int main(){
     
